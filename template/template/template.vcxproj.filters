@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.Main">
+      <UniqueIdentifier>{b7d40ce2-8c74-4f52-9d32-084c69263d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.Panel">
+      <UniqueIdentifier>{e234b5eb-6f39-43c4-a1ec-963019a0663e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="50.Control">
+      <UniqueIdentifier>{370ce6a3-1b1d-4da4-ab25-76aef83578c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="define.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorButton.cpp">
+      <Filter>50.Control</Filter>
+    </ClCompile>
+    <ClCompile Include="MainApp.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPanel.cpp">
+      <Filter>10.Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="TitlePanel.cpp">
+      <Filter>10.Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoPanel.cpp">
+      <Filter>10.Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPanel.cpp">
+      <Filter>10.Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPanel.cpp">
+      <Filter>10.Panel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="define.h">
+      <Filter>00.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="use_id.h">
+      <Filter>00.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="use_design_pattern.hpp">
+      <Filter>00.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="use_wx.h">
+      <Filter>00.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="use_custom_control.h">
+      <Filter>00.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorButton.h">
+      <Filter>50.Control</Filter>
+    </ClInclude>
+    <ClInclude Include="use_stl.h">
+      <Filter>00.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MainApp.h">
+      <Filter>00.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>00.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MainPanel.h">
+      <Filter>10.Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="TitlePanel.h">
+      <Filter>10.Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoPanel.h">
+      <Filter>10.Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPanel.h">
+      <Filter>10.Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPanel.h">
+      <Filter>10.Panel</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
